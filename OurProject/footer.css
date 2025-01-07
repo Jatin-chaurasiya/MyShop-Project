@@ -1,0 +1,77 @@
+.section {
+    background-color: #a8e38f;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+footer h4 {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+footer a {
+    display: flex;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container .col {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+
+.footer-container h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-container p,
+.footer-container a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-container .icon i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #555;
+    cursor: pointer;
+}
+
+.footer-container .icon i:hover {
+    color: #ff5733;
+}
+
+/* Styling for the App Icons and Payment Icons */
+.app-icons img,
+.footer-container img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.install img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #777;
+} 
